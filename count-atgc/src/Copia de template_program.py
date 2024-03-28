@@ -8,7 +8,7 @@ VERSION
 AUTHOR: Silvana Yalu Cristo Martinez 
         
 
-DESCRIPTION: Código de ATCG
+DESCRIPTION: Código. 
         
 
 CATEGORY
