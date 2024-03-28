@@ -8,7 +8,7 @@ VERSION
 AUTHOR: Silvana Yalu Cristo Martinez 
         
 
-DESCRIPTION: Código que cuenta ATCG 
+DESCRIPTION: Código que cuenta ATCG en un archivo dado
         
 
 CATEGORY
