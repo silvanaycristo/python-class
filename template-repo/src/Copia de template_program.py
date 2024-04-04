@@ -1,5 +1,5 @@
 '''
-NAME
+NAME: Programa "count_atcg.py"
        
 
 VERSION
