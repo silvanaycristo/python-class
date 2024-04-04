@@ -8,7 +8,7 @@ VERSION: 1.0
 AUTHOR: Silvana Yalu Cristo Martinez 
         
 
-DESCRIPTION
+DESCRIPTION: Programa que cuenta las recurrencias de atcg de un archivo dado. 
         
 
 CATEGORY
