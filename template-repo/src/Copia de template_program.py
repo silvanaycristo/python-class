@@ -2,7 +2,7 @@
 NAME: Programa "count_atcg.py"
        
 
-VERSION
+VERSION: 1.0 
         
 
 AUTHOR: Silvana Yalu Cristo Martinez 
