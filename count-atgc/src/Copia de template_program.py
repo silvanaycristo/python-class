@@ -24,7 +24,7 @@ METHOD
     Se lee la secuencia de ADN desde un archivo y se cuentan las ocurrencias de cada uno de los nucleótidos mediante un diccionario.
 
 SEE ALSO
-    Otros programas de análisis de ADN pueden incluir alineamiento de secuencias, predicción de genes, etc.
+    Otros programas de análisis de ADN pueden incluir alineamiento de secuencias, predicción de genes, etc. 
 '''
 
 # ===========================================================================
