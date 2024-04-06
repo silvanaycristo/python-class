@@ -1,14 +1,14 @@
 '''
-NAME: Programa "count_atcg.py"
+NAME: 
        
 
-VERSION: 1.0 
+VERSION: 
         
 
-AUTHOR: Silvana Yalu Cristo Martinez 
+AUTHOR: Silvana Yalú Cristo Martínez 
         
 
-DESCRIPTION: Programa que cuenta las recurrencias de atcg de un archivo dado. 
+DESCRIPTION: 
         
 
 CATEGORY
