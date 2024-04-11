@@ -41,7 +41,7 @@ Formato de los archivos input: Archivo de texto plano (.txt) con una secuencia d
 Formato de los archivos output o mensajes a imprimir en pantalla: Mensajes de consola que indican el número de ocurrencias de cada nucleótido en el formato El símbolo X aparece Y veces.
 
 
-#### Caso de uso: Sumar Números
+#### Caso de uso: 
 
 ```
          +---------------+
