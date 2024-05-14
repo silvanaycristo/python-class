@@ -1,0 +1,41 @@
+"""
+restriction_sites.py: Módulo para identificar sitios de restricción en secuencias de ADN.
+
+Este módulo proporciona funcionalidades para identificar y marcar las posiciones de sitios de restricción
+en una secuencia de ADN. Es crucial para procedimientos de clonación y manipulación genética.
+
+Funciones:
+- find_restriction_sites(sequence, enzyme_pattern): Devuelve las posiciones de inicio de los sitios de restricción para un patrón dado.
+"""
+
+def find_restriction_sites(sequence, enzyme_pattern):
+    """
+    Identifica y devuelve las posiciones de inicio de los sitios de restricción en una secuencia de ADN.
+
+    Args:
+        sequence (str): La secuencia de ADN a analizar.
+        enzyme_pattern (str): El patrón de la secuencia reconocida por la enzima de restricción.
+
+    Returns:
+        list: Una lista de posiciones de inicio donde se encuentra el patrón de la enzima.
+
+    Raises:
+        ValueError: Si la secuencia o el patrón de la enzima contiene caracteres no válidos.
+    """
+    from validators import validate_dna_sequence
+    validate_dna_sequence(sequence)
+    validate_dna_sequence(enzyme_pattern)
+
+    positions = []
+    pattern_length = len(enzyme_pattern)
+    for i in range(len(sequence) - pattern_length + 1):
+        if sequence[i:i + pattern_length].upper() == enzyme_pattern.upper():
+            positions.append(i)
+    
+    return positions
+
+if __name__ == "__main__":
+    # Prueba de funcionalidad.
+    test_sequence = "GGATCCATGGATCC"
+    enzyme_pattern = "GGATCC"  # Ejemplo: Sitio de restricción para la enzima BamHI
+    print(f"Sitios de restricción encontrados en las posiciones: {find_restriction_sites(test_sequence, enzyme_pattern)}")
