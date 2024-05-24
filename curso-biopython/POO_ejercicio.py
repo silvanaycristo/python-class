@@ -1,7 +1,7 @@
 '''
 El código presentado a continuación sirve para demostrar el uso de la Programación Orientada a Objetos (POO) en Python y aplicar los conocimientos vistos en clase.  
 1. Define una clase base 'Animal' con atributos comunes como nombre y edad, y un método para hacer ruido. 
-2. Luego, se crean dos clases derivadas, 'Perro' y 'Gato', que heredan de 'Animal' y sobrescriben el método 'haz_ruido' para devolver sonidos específicos ('guau' para perros y 'miau' para gatos). 
+2. Luego se crean dos clases derivadas, 'Perro' y 'Gato', que heredan de 'Animal' y sobrescriben el método 'haz_ruido' para devolver sonidos específicos ('guau' para perros y 'miau' para gatos). 
 3. La clase 'Gato' también incluye un atributo adicional 'usa_areno'. Finalmente, se crean objetos de ambas clases y se muestran sus atributos y los sonidos que hacen, demostrando herencia y polimorfismo en POO. 
 '''
 
