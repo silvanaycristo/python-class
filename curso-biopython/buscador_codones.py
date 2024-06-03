@@ -22,7 +22,7 @@ USAGE:
 
 ARGUMENTS:
 
-         -i : Archivo FASTA de entrada que contiene las secuencias de ADN.
+        -i : Archivo FASTA de entrada que contiene las secuencias de ADN.
 
 METHOD: 
 
@@ -53,7 +53,7 @@ def find_codons(frame, sequence, output_file_name):
     seq_len = len(sequence)
     for i in range(frame, seq_len, 3):
         if i + 3 <= seq_len:
-            codon = str(sequence[i:i+3])  # Convertir cada codón a cadena de texto
+            codon = str(sequence[i:i+3])   # Convierte cada codón a cadena de texto
             codons.append(codon)
     with open(output_file_name, 'w') as output_file:
         output_file.write(f">Frame_{frame+1}\n")
@@ -78,4 +78,4 @@ if __name__ == "__main__":
             find_codons(frame, seq, f"{seq_id}_Frame_{frame+1}.fa")
             find_codons(frame, seq_obj.reverse_complement(), f"{seq_id}_Frame_{frame+4}.fa")
 
-    print("Proceso completado, puedes verificar los archivos de salida generados en el directorio donde ejecutaste el script.")  # Mens
+    print("Proceso completado, puedes verificar los archivos de salida generados en el directorio donde ejecutaste el script.")  # Mensaje de confirmaciÃ³n final
