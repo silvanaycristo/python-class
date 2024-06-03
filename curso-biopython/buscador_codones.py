@@ -78,4 +78,4 @@ if __name__ == "__main__":
             find_codons(frame, seq, f"{seq_id}_Frame_{frame+1}.fa")
             find_codons(frame, seq_obj.reverse_complement(), f"{seq_id}_Frame_{frame+4}.fa")
 
-    print("Proceso completado, puedes verificar los archivos de salida generados en el directorio donde ejecutaste el script.")  # Mensaje de conformación final 
+    print("Proceso completado, puedes verificar los archivos de salida generados en el directorio donde ejecutaste el script.")  # Mensaje de confirmación final 
